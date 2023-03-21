@@ -15,6 +15,7 @@ public class IndexController {
    * @return API response html
    */
   @GetMapping
+  @ResponseBody
   public String index() {
     return "indexApplyAsPlaceHolder";
   }
